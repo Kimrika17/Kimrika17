@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimaHome</title>
+    <style type="text/css">
+        .logo{
+            background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzE21SnLUXZuJM-MLqL5Yyre17qQxNeRS4Dvin9IAS7EXYI4Glyo5cgHacCv_JMSaJni4CL-2wtWgGiJzdn-7Dfy6gxt4Mt_djPKrFP2ugeLPStJjJrEE-MJ1opE3862Gix9nDQhmGGtr8yCYZkci_hwIsNPSUyuJA4R35t-zseCABJlxFA7C6SE68KQ/s58/logo2.png);
+            width: 40px;
+            margin: 4 px 14px;
+            height: 40px;
+            background-size: 40px 40px;
+            border: solid 2px rgb(88, 128, 248);
+            background-color: rgb(88, 128, 248);
+        }
+       .navbar-left{
+        float:left;
+        padding-left: 15px;
+       }
+       .navbar-right{
+        float: right;
+        width: 500px;
+        padding-right: 5px;
+       }
+       .navbar{
+        width: auto;
+        height: 50px;
+        background: rgb(88, 128, 248);
+       }
+       .navbar ul{
+        float: left;
+        margin: 0;
+        padding: 0;
+       }
+       .navbar li{
+        float: left;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+       }
+       .navbar li a, .navbar li a:link{
+        float: left;
+        padding: 17px 12px;
+        color: #fff;
+        text-decoration: none;
+        position: relative;
+        font-family: sans-serif;
+        font-size: 14px;
+       }
+       .navbar li a:hover{
+        background: #ddd;
+        color: #444;
+       }
+       .navbar li li a, .navbar li li a:link{
+        text-decoration: none;
+        font-size: 16px;
+        background: #444;
+        color: #fff;
+        width: 108px;
+        padding: 0px 0px 0 12px;
+        font-size: 12px;
+        line-height: 35px;
+       }
+       .navbar li li a:hover{
+        background: #ddd;
+        color: #444;
+       }
+       .navbar li ul{
+        z-index: 9999;
+        position: absolute;
+        left: -999em;
+        height: auto;
+        width: 120px;
+        margin-top: 50px;
+        border: 1px solid #666;
+       }
+       .navbar li:hover ul,
+       .navbar li li:hover ul,
+       .navbar li li li:hover ul{left:auto;}
+       .navbar li:hover{position: auto;}
+       li a#dropdown{
+        width: 96%;
+        height: 50%;
+        background-color: #9bc7d3;
+        padding-left: 5px;
+       }
+    </style>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <div class="logo"></div>       
+        </div>
+        <div class="navbar-right">
+            <ul>
+                <li><a href="#">Masuk</a></li>
+                <li><a href="#">Daftar</a></li>
+                <li><a href="#">Titip Jual/Sewa</a></li>
+                <li><a href="#">Kontak Kami</a></li>
+                <li><a>Beli &nabla;</a>
+                    <ul class="dropdown-list">
+                       <li><a class="dropdown" href="#">Rumah Baru</a></li>
+                       <li><a class="dropdown" href="#">Rumah Seken</a></li>
+                       <li><a class="dropdown" href="#">Apartemen Baru</a></li>
+                       <li><a class="dropdown" href="#">Apartemen Seken</a></li>
+                       <li><a class="dropdown" href="#">Ruko Baru</a></li>
+                       <li><a class="dropdown" href="#">Ruko Seken</a></li>
+                       <li><a class="dropdown" href="#">Tanah</a></li>
+                    </ul>
+                </li>
+                <li><a>Sewa &nabla;</a>
+                    <ul class="dropdown-list">
+                        <li><a class="dropdown" href="#">Rumah</a></li>
+                        <li><a class="dropdown" href="#">Apartemen</a></li>
+                        <li><a class="dropdown" href="#">Ruko</a></li>
+                        <li><a class="dropdown" href="#">Kantor</a></li>
+                        <li><a class="dropdown" href="#">Coworking Space</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</head>
+<body>
+    <div class="bagian-1">
+        <div class="gambar-sofa">
+            <div class="temukan-rumah">
+                <h1 class="title montserrat-bold-white-35px">
+                <span>Temukan Hunian Impian Anda!</span>
+                </h1>
+            </div>
+            <div class="temukan-seluruh">
+                <h2 class="title montserrat-bold-white-10px">
+                <span >Temukan di seluruh Indonesia</span>
+                <form>
+                    <input class="search" type="text" placeholder="Cari disini..." required>
+                    <input class="button" type="button" value="cari">
+               </form>
+                </h2>  
+            </div>
+        </div>
+        <div class="beli">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoNTwKN6dAliKAHqX5baZt0M12XJkgw1auC9gBLOkTcFTwle2B9EfyH0b0q_BFRKcHrmIaIktkGY-kIKoiCpAqC7fkUZwfaQx6a4P7KQyOmbEyfRZsfH77qK1qylQVfUUCjthpVUoGbVCcWfMnnH_blGpBIqb5cc2nyM12I3xJv8xyAxvxqlkLq_LgtA/s73/beli.png"
+            alt="">
+        </div>
+        <div class="sewa">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHjIBC_eU-S2SDrzh1PYma_-O07skR2HNB62L7x9Kd3St6YKHDu8w2N6Qe3f5TbbAPRBqvAXisJz9V5HLjxkD4HfMf3bNXTYMv-mIPFg-i8_fJpRzrI38LO3G-Z93zRIk0IP5aqxFQUQC1wMwcFR0OGn2JkxlzMM_CyxyxcsXajMHLqK4ycGJdgjTITw/s69/sewa.png"
+            alt="">
+        </div>
+        <div class="bid">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgERaQG_CsS0cGzMhFaJ0gohgqe0UAu0veBBPXT1P9DSq9lVUp6cp2jQF7EW5g0kKbAg2ldcUdIJSoOwin-57OyEN1iDpTlwhur76ZEic2axezYINb46RBCHyl63retDZMyPsBN4dlx9RCvppe8Aj65SP4jaNAkh8lobVVmZmIEWmWvQ8Ab6k_TeLeG-Q/s103/lelang.png"
+            alt="">
+        </div>
+    </div>
+    <style type="text/css">
+    .bagian-1{
+        width: auto;
+        height: 389px;
+        background: #fff;
+    }
+    .gambar-sofa{
+        background-image:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuBJE2ozYtZTWyaxpDLOwf4k2aqnkxAIf8TljznDVqMAOhQm4tlG1O5gEjFLHEqmnu-47BrbSN5BJDOZb8jkJSyf1DSvVWiX6a5EYkWHp0YBWYmFTRP_nhpjd3cmYLyrF9YWUu-hZ0Vfx3eQQ7mhgFWJbPH1xHAhn5PSJ6hslx7V5aLXqXJFPQWH4tkg/s1113/gambar%20sofa.png);
+        height: 240px;
+        left: 270px;
+        top: 90px;
+        object-fit: cover;
+        position: absolute;
+        width: 790px;
+        border-radius: 10px;
+    }
+    .temukan-rumah{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        left: 100px;
+        min-height: 210px;
+        position: absolute;
+        top: 20px;
+        width: 614px;
+        color: white;
+    }
+    .temukan-seluruh{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        left: 215px;
+        min-height: 210px;
+        position: absolute;
+        top: 75px;
+        width: 614px;
+        color: white;
+    }
+    form{
+        width: 500px;
+        margin: 30px auto;
+    }
+    .search{
+        padding: 7px 28px;
+        background:white;
+        border: 0px solid white;
+        top: 70px;
+        left: 220px;
+        position: center;
+
+    }
+    .button{
+        position: relative;
+        padding: 7px 15px;
+        left: -8px;
+        background-color: rgb(88, 128, 248);
+        color: white;
+        cursor: pointer;
+        border: 0.4px solid rgb(88, 128, 248);
+    }
+    .button:hover{
+        background-color: grey;
+        color: black;
+        border: 0.2px solid grey;
+    }
+    .beli{
+        position: absolute;
+        top: 295px;
+        left: 580px;
+        -ms-transform: translate(-50%, 50%);
+        transform: translate(-50%, 50%);
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 50px;
+    }
+    .sewa{
+        position: absolute;
+        top: 295px;
+        left: 50%;
+        -ms-transform: translate(-50%, 50%);
+        transform: translate(-50%, 50%);
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 50px;
+    }
+    .bid{
+        position: absolute;
+        top: 273px;
+        left: 740px;
+        -ms-transform: translate(-50%, 50%);
+        transform: translate(-50%, 50%);
+        font-size: 16px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 68px;
+    }
+    </style>
+
+    <div class="bagian-2">
+        <div class="eksklusif montserrat-bold-white-27px">
+            <span class="montserrat-bold-white-27px">Eksklusif di Primahome</span>
+        </div>
+        <div class="temukan montserrat-normal-white-24px">
+            <span class="montserrat-normal-white-24px">Temukan berbagai macam properti sesuai keinginan Anda disini...</span>
+        </div>
+        <button>Lihat Semua</button>
+
+    <style type="text/css">
+    .bagian-2{
+        width: auto;
+        height: 100px;
+        background: white;
+    }
+    .eksklusif{
+        margin-left: 25px;
+        letter-spacing: 0;
+        position: absolute;
+        top: 450px;
+        width: 456px;
+        font-size: 25px;
+        color:black;
+        font-style: bold;
+        font-family: sans-serif;
+    }
+    .temukan{
+        margin-left: 25px;
+        letter-spacing: 0;
+        position: absolute;
+        top: 480px;
+        width: 800px;
+        font-size: 17px;
+        color:black;
+        font-style: bold;
+        font-family: sans-serif;
+    }
+    button{
+        font-family: sans-serif;
+        font-size: 18px;
+        background: royalblue;
+        color: white;
+        border: grey 0.5px solid;
+        border-radius: 5px;
+        padding: 8px 15px;
+        margin-top: 20px;
+        margin-left: 1100px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-color: grey;
+        color: white;
+        border: white;
+        top:100px;
+    }
+    </style>
+
+    <div class="bagian-3">
+        <div class="table-1">
+        <table border="0">
+            <tr>
+                <td colspan="1" align="center" width="200"><img src="https://events.rumah123.com/news-content/img/2020/10/02094028/gambar-rumah-minimalis-1.jpg" alt ="" width="200"/></td>
+            </tr>
+            <tr>
+                <tr align="left">
+                    <td>Rp. 950.000.000</td>
+                </tr>
+                <tr align="left">
+                    <td>Jakarta Selatan</td>
+                </tr>
+                <tr align="left">
+                    <td>42/72</td>
+                </tr>
+                <tr rowspan="5" align="left">
+                    <td>Kolam renang, Lapangan, Taman, Area komersil</td>
+                </tr>
+                <tr align="left">
+                    <td>Terpasang 1 minggu</td>
+                </tr>
+            </tr>
+        </table>
+        </div>
+    </div>
+    <style type="text/css">
+        .bagian-3{
+        width: 250px;
+        height: 330px;
+        background: royalblue;
+        position: relative;
+        margin-top: 0;
+    }
+        .table-1{
+        background-color: rgb(111, 111, 252);
+        border-radius: 5px;
+        margin-left: 25px;
+        margin-right: 20px;
+        font-family: sans-serif;
+        margin-top: 40px;
+        cursor: pointer;
+        color: white;
+    }
+    </style>
+
+    <div class="bagian-4">
+        <div class="table-2">
+        <table border="0">
+            <tr>
+                <td colspan="1" align="center" width="200"><img src="https://events.rumah123.com/news-content/img/2020/10/02094028/gambar-rumah-minimalis-1.jpg" alt ="" width="200"/></td>
+            </tr>
+            <tr>
+                <tr align="left">
+                    <td>Rp. 950.000.000</td>
+                </tr>
+                <tr align="left">
+                    <td>Jakarta Selatan</td>
+                </tr>
+                <tr align="left">
+                    <td>42/72</td>
+                </tr>
+                <tr rowspan="5" align="left">
+                    <td>Kolam renang, Lapangan, Taman, Area komersil</td>
+                </tr>
+                <tr align="left">
+                    <td>Terpasang 1 minggu</td>
+                </tr>
+            </tr>
+        </table>
+        </div>
+    </div>
+    <style type="text/css">
+        .bagian-4{
+        width: 250px;
+        height: 330px;
+        margin-left: 250px;
+        margin-right: 600px;
+        background: royalblue;
+        position: relative;
+        top: -370px;
+    }
+        .table-2{
+        background-color: rgb(111, 111, 252);
+        border-radius: 5px;
+        margin-left: 25px;
+        margin-right: 20px;
+        font-family: sans-serif;
+        margin-top: 40px;
+        cursor: pointer;
+        color: white;
+    }
+    </style>
+  <div class="bagian-5">
+    <div class="table-3">
+    <table border="0">
+        <tr>
+            <td colspan="1" align="center" width="200"><img src="https://events.rumah123.com/news-content/img/2020/10/02094028/gambar-rumah-minimalis-1.jpg" alt ="" width="200"/></td>
+        </tr>
+        <tr>
+            <tr align="left">
+                <td>Rp. 950.000.000</td>
+            </tr>
+            <tr align="left">
+                <td>Jakarta Selatan</td>
+            </tr>
+            <tr align="left">
+                <td>42/72</td>
+            </tr>
+            <tr rowspan="5" align="left">
+                <td>Kolam renang, Lapangan, Taman, Area komersil</td>
+            </tr>
+            <tr align="left">
+                <td>Terpasang 1 minggu</td>
+            </tr>
+        </tr>
+    </table>
+    </div>
+</div>
+<style type="text/css">
+    .bagian-5{
+    width: 250px;
+    height: 330px;
+    margin-left: 250px;
+    margin-right: 4000px;
+    background: royalblue;
+    position: relative;
+    top: -370px;
+}
+    .table-3{
+    background-color: rgb(111, 111, 252);
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-right: 20px;
+    font-family: sans-serif;
+    margin-top: 40px;
+    cursor: pointer;
+    color: white;
+}
+</style>
+    <div class="foot">
+    </div>
+    <style type="text/css">
+    .foot{
+        width: auto;
+        height: 300px;
+        background: rgb(87, 85, 85); 
+    }
+    </style>
+</body>
+</html>

@@ -1,0 +1,108 @@
+:root{
+    --black:rgba(0,0,0,1);
+    --royal-blue:rgba(63,81,244,1);
+    --silver: rgba(189,189,189,1);
+    --white: rgba(255,255,255,1);
+
+    --font-size-m: 14px;
+    --font-size-l: 17px;
+    --font-size-xl: 20px;
+    --font-size-xxl:24px;
+    --font-size-xxxl:25px;
+    --font-size-xxxxl: 27px;
+    --fonts-size-xxxxxl: 35px;
+
+    --font-family-arial-bold: "Arial-Bold";
+    --font-family-arial-regular: "Arial-Regular";
+    --font-family-arial_rounded_mt_bold-regular: "Arial Rounded MT Bold-Regular";
+    --font-family-montserrat: "Montserrat";
+    }
+    .border-1px-white {
+        border-width:1px;
+        border-style:solid;
+        border-color: white;
+    }
+    .montserrat-normal-white-24px{
+        color: white;
+        font-family: var(--font-family-montserrat);
+        font-size:var(--font-size-xxl);
+        font-weight: 400;
+        font-style: normal;
+    }
+    .arialroundedmtbold-regular-normal-white-17px {
+        color: white;
+        font-family: var(--font-family-arial_rounded_mt_bold-regular);
+        font-size: var(--font-size-l);
+        font-weight: 400;
+        font-style: normal;
+    }
+    .montserrat-bold-white-16px{
+        color: white;
+        font-family: var(--font-family-montserrat);
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+    }
+    .montserrat-bold-white-35px{
+        color:white;
+        font-family: var(--font-family-montserrat);
+        font-size: var(--fonts-size-xxxxxl);
+        font-weight: 700;
+        font-style: normal;
+    }
+    .montserrat-bold-white-25px{
+        color:white;
+        font-family: var(--font-family-montserrat);
+        font-size: var(--fonts-size-xxxl);
+        font-weight: 700;
+        font-style: normal;
+    }
+    .montserrat-bold-white-27px{
+        color:white;
+        font-family: var(--font-family-montserrat);
+        font-size: var(--fonts-size-xxxxl);
+        font-weight: 700;
+        font-style: normal;
+    }
+    .montserrat-normal-silver-20px{
+        color:silver;
+        font-family: var(--font-family-montserrat);
+        font-size: var(--fonts-size-xl);
+        font-weight: 400;
+        font-style: normal;
+    }
+    .montserrat-normal-white-20px{
+        color: white;
+        font-family: var(--font-family-montserrat);
+        font-size: var(--fonts-size-xl);
+        font-weight: 700;
+        font-style: normal;
+    }
+    .montserrat-normal-black-14px{
+        color: black;
+        font-family: var(--font-family-montserrat);
+        font-size: var(--fonts-size-m);
+        font-weight: 400;
+        font-style: normal;
+    }
+    .arial-bold-royal-blue-25px{
+        color: royalblue;
+        font-family: var(--font-family-arial-bold);
+        font-size: var(--fonts-size-xxxl);
+        font-weight: 700;
+        font-style: normal;
+    }
+    .montserrat-bold-white-24px{
+        color: white;
+        font-family: var(--font-family-montserrat);
+        font-size: var(--fonts-size-xxl);
+        font-weight: 700;
+        font-style: normal;
+    }
+.arial-regular-normal-white-17px{
+    color: white;
+    font-family: var(--font-family-arial-regular);
+    font-size: var(--fonts-size-l);
+    font-weight: 400;
+    font-style: normal;
+}

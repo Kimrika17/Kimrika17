@@ -1,0 +1,327 @@
+@import url("https://fonts.googleeapis.com/css?family=montserrat:400,700");
+@font-face{
+    font-family: "Arial-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src:url("https://fonts.animaapp.com/Arial-Bold")
+    format("truetype");
+}
+@font-face{
+    font-family: "Arial-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src:url("https://fonts.animaapp.com/Arial-Regular")
+    format("truetype");
+}
+@font-face{
+    font-family: "Arial Rounded MT Bold-Regular";
+    font-style: normal;
+    font-weight: 400;
+    src:url("https://fonts.animaapp.com/ArialRoundedMTBold-Regular")
+    format("truetype");
+}
+.landing-1 {
+    align-items:center;
+    background-color:white;
+    display:flex;
+    flex-direction: column;
+    height: 1980px;
+    overflow: hidden;
+    width: 1372px;
+}
+.hidden,
+hidden *{
+    pointer-events: none;
+    visibility:hidden;
+}
+.overlap-group14{
+    height: 1491px;
+    margin-left:1px;
+    margin-top: 37px;
+    position:relative;
+    width: 1373px;
+}
+.overlap-group4{
+    align-items: flex-start;
+    background-color:white;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    left: 101px;
+    min-height: 408px;
+    position: absolute;
+    top: 141px;
+    width: 256px;
+}
+.luas-tanah-dan-bangunan{
+    align-self: center;
+    letter-spacing: 0;
+    margin-right: 22px;
+    margin-top: 12px;
+    min-height: 17px;
+    min-width: 188px;
+    text-align:center;
+}
+.tempat{
+    letter-spacing: 0;
+    margin-left: 23px;
+    margin-top: 12px;
+    min-height: 17px;
+    min-width: 54px;
+    text-align: center;
+}
+.rectangle-27{
+    height: 216px;
+    object-fit: cover;
+    width: 256px;
+}
+.status{
+    letter-spacing: 0;
+    margin-left: 23px;
+    margin-top: 54px;
+    min-height: 17px;
+    min-width: 45px;
+    text-align: center;
+}
+.harga{
+    letter-spacing: 0;
+    margin-left: 22px;
+    margin-top: 4px;
+    min-height: 17px;
+    min-width: 43px;
+    text-align: center;
+}
+.fasilitas{
+    letter-spacing: 0;
+    margin-left: 23px;
+    margin-top: 12px;
+    min-height: 17px;
+    min-width: 56px;
+    text-align: center;
+}
+.overlap-group8{
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    left: 101px;
+    min-height: 408px;
+    position: absolute;
+    top: 587px;
+    width: 256;
+}
+.logo-insta{
+    height: 42px;
+    left: 101px;
+    object-fit: cover;
+    position: absolute;
+    top: 1194px;
+    width: 43px;
+}
+.patrajasaofficetower-1{
+    height: 245px;
+    left: 1016px;
+    object-fit: cover;
+    position: absolute;
+    top: 1214px;
+    width: 260px;
+}
+.rectangle-30{
+    height:430px;
+    left: 0;
+    position: absolute;
+    top: 1061px;
+    width: 1372px;
+}
+.overlap-group6{
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    left: 717px;
+    min-height: 408px;
+    position: absolute;
+    top: 141px;
+    width: 256px;
+}
+.overlap-group11{
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    left: 1020px;
+    min-height: 408px;
+    position: absolute;
+    top: 587px;
+    width: 256px;
+}
+.temukan-berbagai-mac{
+    left: 109px;
+    letter-spacing: 0;
+    position: absolute;
+    text-align: center;
+    top: 72px;
+    width: 827px;
+}
+.overlap-group12{
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 6px;
+    display: flex;
+    height: 60px;
+    left: 1080px;
+    min-width: 196px;
+    padding: 14px 22px;
+    position: absolute;
+    top: 27px;
+
+}
+.lihat-semua{
+    letter-spacing: 0;
+    min-height: 29px;
+    min-width: 149px;
+    text-align: center;
+}
+.overlap-group7{
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    left: 1020px;
+    min-height: 408px;
+    position: absolute;
+    top: 141px;
+    width: 256px;
+}
+.overlap-group10{
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: colum;
+    left: 717px;
+    min-height: 408px;
+    position: absolute;
+    top: 587px;
+    width: 256px;
+}
+.logo-fb{
+    height: 45px;
+    left: 232px;
+    object-fit: cover;
+    position: absolute;
+    top:1191px;
+    width: 44px;
+}
+.overlap-group9{
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    left: 409px;
+    min-height: 408px;
+    position: absolute;
+    top: 587px;
+    width: 256px;
+}
+.copyright-2022-pt{
+    left:96px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 1426px;
+}
+.bagian-tengah{
+    background-color: royalblue;
+    height: 1065px;
+    height: 1065px;
+    left: 1px;
+    position: absolute;
+    top: 0;
+    width: 456px;
+}
+.ekslusif-di-prima-home{
+    left: 131px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 35px;
+    width: 456px;
+}
+.logo-youtube{
+    height: 59px;
+    left: 276px;
+    position: absolute;
+    top: 1185px;
+    width: 88px;
+}
+.logo-twit{
+    height: 47px;
+    left: 159px;
+    object-fit: cover;
+    position: absolute;
+    top: 1191px;
+    width: 61px;
+}
+.overlaps-group5{
+    align-items: flex-start;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    left: 409px;
+    min-height: 408px;
+    position: absolute;
+    top: 141px;
+    width: 256px;
+}
+.address-patra-jasa-o{
+    left: 890px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 1073px;
+}
+.power-by{
+    align-items: flex-start;
+    display: flex;
+    height: 45px;
+    left: 101px;
+    min-width: 483px;
+    position: absolute;
+    top: 1109px;
+}
+.flex-col{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 14px;
+    margin-top: -1px;
+    min-height: 45px;
+    width: 409px;
+}
+.power-by-pt-primase{
+    letter-spacing: 0;
+    margin-top: 5px;
+    min-height: 20px;
+}
+.miliki-pengalaman-ya{
+    letter-spacing: 0;
+    min-height: 20px;
+}
+.overlap-group-1{
+    align-self: center;
+    height: 38px;
+    margin-bottom: 1.71px;
+    margin-left: -3px;
+    position: relative;
+    width: 59px;
+}
+.prima-1{
+    left: 5px;
+    letter-spacing: 0;
+    position: absolute;
+    top: 17px;
+    width: 53px;
+}
