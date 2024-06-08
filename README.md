@@ -1,7 +1,6 @@
-- 👋 Hi, I’m @Kimrika17
+- 👋 Hi, I’m RikaEmillia
 - 👀 I’m interested in art and design
 - 🌱 I’m currently learning Html n CSS
-- 💞️ I’m looking to collaborate on webbsite design
 - 📫 How to reach me just contact my email or whatsapp
 
 <!---
